@@ -11,8 +11,8 @@ OpenShift 4 AWS Installation IPI at OpenTLC
 ```
 ### Step 2: Clone Preparation script from Git and Change below parameter
 ```bash
-> git clone https://github.com/moses-rebong/ocp4-at-opentlc.git
-> cd ocp4-at-opentlc/
+> git clone https://github.com/moses-rebong/OCP4-Installation-OpenTLC.git
+> cd OCP4-Installation-OpenTLC/
 > vim prepare-openshift-installer.sh
 ```
 ### Step 3: Change parameter on preparation script
@@ -27,7 +27,7 @@ export GUID={GUID generated from opentlc}
 ### Step 4: Login as Root and run preparation script
 ```bash
 > sudo -i
-> cd ${HOME}/ocp4-at-opentlc/
+> cd ${HOME}/OCP4-Installation-OpenTLC/
 > ./prepare-openshift-installer.sh
 ```
 
