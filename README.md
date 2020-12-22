@@ -61,6 +61,14 @@ Pull Secret = ***** download from try.openshift.com
 ```
 > During installation, script will ask for pull secret. Download at try.openshift.com .
 
+CA certificate = --> use default
+SSH Public Key /root/.ssh/cluster-${GUID}-key.pub
+Platform aws
+AWS Region = ap-southeast-1
+Base Domain = sandbox???.opentlc.com
+Cluster Name = ocplab-cluster
+Pull Secret = ***** download from try.openshift.com
+
 > Go to try.openshift.com
 > Login with your Red Hat ID
 > Choose Self Managed > try it in your cloud
