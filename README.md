@@ -31,8 +31,7 @@ export GUID={GUID generated from opentlc}
 > ./prepare-openshift-installer.sh
 ```
 
-** If you get "file not found" error, you need to make sure that your $HOME is configured.
-** You can use "pwd" to know your current directory
+** If you get "file not found" error, you need to make sure that your $HOME is configured. You can use "pwd" to know your current directory
 
 It will shows this log once done,
 ```
