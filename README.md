@@ -28,7 +28,7 @@ export GUID={GUID generated from opentlc}
 ```bash
 > sudo -i
 > cd ${HOME}/OCP4-Installation-OpenTLC/
-> ./prepare-openshift-installer.sh
+> . prepare-openshift-installer.sh
 ```
 
 ** If you get "file not found" error, you need to make sure that your $HOME is configured. You can use "pwd" to know your current directory
@@ -60,6 +60,14 @@ Cluster Name = ocplab-cluster
 Pull Secret = ***** download from try.openshift.com
 ```
 > During installation, script will ask for pull secret. Download at try.openshift.com .
+
+> Go to try.openshift.com
+> Login with your Red Hat ID
+> Choose Self Managed > try it in your cloud
+> Choose In the Public Cloud > AWS
+> Choose Installer-provisioned infrastructure 
+> Copy pull secret
+> paste it on CLI
 
 ![Pull Secret](pull-secret.PNG)
 
