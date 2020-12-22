@@ -78,28 +78,33 @@ Below is end of installation screen
 ...
 INFO Waiting up to 30m0s for the cluster at https://api.ocplab-cluster.sandbox????.opentlc.com:6443 to initialize...
 ...
-DEBUG Still waiting for the cluster to initialize: Working towards 4.6.1: 99% complete, waiting on authentication, console, ingress, monitoring
-DEBUG Still waiting for the cluster to initialize: Working towards 4.6.1: 99% complete
-DEBUG Still waiting for the cluster to initialize: Working towards 4.6.1: 100% complete, waiting on authentication
+DEBUG Still waiting for the cluster to initialize: Working towards 4.5.6: 13% complete
+DEBUG Still waiting for the cluster to initialize: Working towards 4.5.6: 16% complete
+DEBUG Still waiting for the cluster to initialize: Working towards 4.5.6: 88% complete
 DEBUG Cluster is initialized
 INFO Waiting up to 10m0s for the openshift-console route to be created...
 DEBUG Route found in openshift-console namespace: console
 DEBUG Route found in openshift-console namespace: downloads
 DEBUG OpenShift console route is created
 INFO Install complete!
-INFO To access the cluster as the system:admin user when using 'oc', run 'export KUBECONFIG=/root/cluster-cfbf/auth/kubeconfig'
+INFO To access the cluster as the system:admin user when using 'oc', run 'export KUBECONFIG=/root/cluster-????/auth/kubeconfig'
+INFO Access the OpenShift web-console here: https://console-openshift-console.apps.ocplab-cluster.sandbox????.opentlc.com
+INFO Login to the console with user: "kubeadmin", and password: --> Generated
+DEBUG Time elapsed per stage:
+DEBUG     Infrastructure: 6m8s
+DEBUG Bootstrap Complete: 12m11s
+DEBUG  Bootstrap Destroy: 49s
+DEBUG  Cluster Operators: 19m47s
+INFO Time elapsed: 41m49s
 
-INFO Access the OpenShift web-console here: https://console-openshift-console.apps.ocplab-cluster.sandbox???.opentlc.com --> generated
-INFO Login to the console with user: kubeadmin, password: ??? --> generated
-
-real    42m54.337s --> time needed for installation
-user    0m33.311s
-sys     0m2.008s
+real    41m49.080s
+user    0m34.074s
+sys     0m1.830s
 ```
 
 ### Step 6: Login from oc client
 ```bash
-> oc login --token=$TOKEN --server=https://api.ocplab-cluster.sandbox930.opentlc.com:6443
+> oc login --token=$TOKEN --server=https://api.ocplab-cluster.sandbox????.opentlc.com:6443
 ```
 
 =======
