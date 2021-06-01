@@ -1,4 +1,4 @@
-# Install Openshift 4.6.1 on AWS (Internal Red Hat)
+# Install Openshift 4.7.4 on AWS (Internal Red Hat)
 OpenShift 4 AWS Installation IPI at OpenTLC 
 
 ### Prerequisite
