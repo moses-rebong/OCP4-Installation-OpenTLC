@@ -4,7 +4,7 @@
 export AWSKEY=CHANGETHIS
 export AWSSECRETKEY=CHANGETHIS
 export REGION=ap-southeast-1
-export OCP_VERSION=4.7.4
+export OCP_VERSION=4.8.6
 export GUID=CHANGETHIS
 
 set -xe
