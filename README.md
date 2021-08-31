@@ -39,7 +39,7 @@ cd ${HOME}/OCP4-Installation-OpenTLC/
 . prepare-openshift-installer.sh
 ```
 
-** If you get "file not found" error, you need to make sure that your $HOME is configured. You can use "pwd" to know your current directory
+** If you get " /root/OCP4-Installation-OpenTLC/: No such file or directory", you need to make sure that your $HOME variable is configured. You can use "pwd" to know your current directory
 
 It will shows this log once done,
 ```
