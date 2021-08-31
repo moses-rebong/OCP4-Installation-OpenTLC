@@ -7,7 +7,10 @@ OpenShift 4 AWS Installation IPI at OpenTLC
 
 ### Step 1: Login to bastion host (provided on Opentlc's Email)
 ```bash
-> ssh user@host
+ssh user@host
+```
+```bash
+ssh user@host
 ```
 ### Step 2: Clone Preparation script from Git and Change below parameter
 ```bash
