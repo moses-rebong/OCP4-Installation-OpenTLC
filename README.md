@@ -76,7 +76,7 @@ Pull Secret = ***** download from try.openshift.com
 > During installation, script will ask for pull secret. Download at try.openshift.com .
 
 ```
-> Go to try.openshift.com
+> Go to https://console.redhat.com/openshift/install/aws/installer-provisioned
 > Login with your Red Hat ID
 > Choose Self Managed > try it in your cloud
 > Choose In the Public Cloud > AWS
