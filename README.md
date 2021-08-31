@@ -30,9 +30,13 @@ export GUID={GUID generated from opentlc}
 
 ### Step 4: Login as Root and run preparation script
 ```bash
-> sudo -i
-> cd ${HOME}/OCP4-Installation-OpenTLC/
-> . prepare-openshift-installer.sh
+sudo -i
+```
+```bash
+cd ${HOME}/OCP4-Installation-OpenTLC/
+```
+```bash
+. prepare-openshift-installer.sh
 ```
 
 ** If you get "file not found" error, you need to make sure that your $HOME is configured. You can use "pwd" to know your current directory
@@ -47,10 +51,16 @@ Please exit the session and relogin again to enable the Bash completion.
 
 ### Step 5: Relogin as Root and install ocp
 ```bash
-> exit
-> sudo -i
-> tmux new -s ocp_install
-> time openshift-install create cluster --dir $HOME/cluster-${GUID} --log-level debug
+exit
+```
+```bash
+sudo -i
+```
+```bash
+tmux new -s ocp_install
+```
+```bash
+time openshift-install create cluster --dir $HOME/cluster-${GUID} --log-level debug
 ```
 
 #### From installer screen, choose
