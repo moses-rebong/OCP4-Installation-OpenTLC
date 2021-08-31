@@ -134,3 +134,4 @@ In case of you forgot your OCP's Kubeadmin password, we can check our installati
 ```
 vi $HOME/cluster-${GUID}/.openshift_install.log
 ```
+** If you could not find .openshift_install.log try to find the file using " find ./ -name .openshift_install.log " command in sudo mode.
