@@ -118,13 +118,13 @@ sys     0m1.830s
 
 ### Step 6: Login from oc client
 ```bash
-> oc login --token=$TOKEN --server=https://api.ocplab-cluster.sandbox????.opentlc.com:6443
+oc login --token=$TOKEN --server=https://api.ocplab-cluster.sandbox????.opentlc.com:6443
 ```
 
 =======
 ### Step 7: Upload non admin user on htpasswd
 ```bash
-> htpasswd -nb admin mypassword
+htpasswd -nb admin mypassword
 ```
 Copy output on .txt file and upload on OpenShift web console (user management) 
 
